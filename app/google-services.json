@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "667413551669",
+    "firebase_url": "https://easyreach-5adb0-default-rtdb.firebaseio.com",
+    "project_id": "easyreach-5adb0",
+    "storage_bucket": "easyreach-5adb0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:667413551669:android:d66cab670c25fbf35e2f7c",
+        "android_client_info": {
+          "package_name": "com.example.easyreach"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR21JwIWmCPPj9OuFiKz3DFrQ-pChOEXY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

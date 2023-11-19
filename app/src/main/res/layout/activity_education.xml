@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".repairs">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/eduorder"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="50dp"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <CheckBox
+                android:id="@+id/ed1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:button="@android:drawable/alert_light_frame"
+                android:text="Subject Specific Tutor "
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:padding="10dp"
+                />
+
+            <CheckBox
+                android:id="@+id/ed2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:button="@android:drawable/alert_light_frame"
+                android:text="Test Preparation Tutors"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:padding="10dp"
+                />
+
+            <CheckBox
+                android:id="@+id/ed3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:button="@android:drawable/alert_light_frame"
+                android:buttonTint="#373936"
+                android:text="Skill Development Tutors"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:padding="10dp"
+                />
+
+            <CheckBox
+                android:id="@+id/ed4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:button="@android:drawable/alert_light_frame"
+                android:text="Grade-Level Tutors"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:padding="10dp"
+                />
+
+            <CheckBox
+                android:id="@+id/ed5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:button="@android:drawable/alert_light_frame"
+                android:text="Specialized Education Tutors"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:padding="10dp"
+                />
+            <CheckBox
+                android:id="@+id/ed6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:button="@android:drawable/alert_light_frame"
+                android:text="College and University Tutors"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:padding="10dp"
+                />
+            <CheckBox
+                android:id="@+id/ed7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:button="@android:drawable/alert_light_frame"
+                android:text="Exam Specific Tutors"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:padding="10dp"
+                />
+            <CheckBox
+                android:id="@+id/ed8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:button="@android:drawable/alert_light_frame"
+                android:text="Personal Development Tutors"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:padding="10dp"
+                />
+            <CheckBox
+                android:id="@+id/ed9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:button="@android:drawable/alert_light_frame"
+                android:text="Technology and Computer Science Tutor"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:padding="10dp"
+                />
+            <CheckBox
+                android:id="@+id/ed10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:button="@android:drawable/alert_light_frame"
+                android:text="Language Tutors"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:padding="10dp"
+                />
+            <CheckBox
+                android:id="@+id/ed11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:button="@android:drawable/alert_light_frame"
+                android:text="Hobby and Recreation Tutors"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:padding="10dp"
+                />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/eduorder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="click"
+        android:text="Order"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
